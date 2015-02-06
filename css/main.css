@@ -2,14 +2,15 @@
 body {
 	color: #8A0009;
 	background-color: #A5A6A1;
-	font-family: Helvetica, arial, sans-serif;
+	font-family: 'Quattrocento', serif;
 	font-size:18px;
 	font-weight:400;
 	background-image: url("../images/light_honeycomb.png");
 }
-
 h1 {
 	color: #ff0000;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4em;
 	margin:.5em 0 .5em 0;
 }
 ul {
@@ -30,7 +31,6 @@ li {
 	padding:20px;
 	width: 700px;
 }
-
 .contact{
 }
 .wrapper {
