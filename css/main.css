@@ -20,7 +20,7 @@ li {
 	margin:.5em 0 .5em 1em;
 }
 img {
-	position: absolute;
+	/*float: left; here?*/
 }
 a{
 	color: #FF590A;
@@ -29,24 +29,21 @@ a{
 	font-style: italic;
 	font-size: 1.25em;
 	font-weight: 600;
-	margin-bottom: 50px;
+	margin-bottom: 2em;
 }
 .bodytext {
-	margin-left: 500px;
-	margin-bottom: 100px;
 	background-color: rgba(255,255,255,.7);
-	padding:20px;
-	width: 700px;
-	position: relative;
-	left: 25px;
+	float: right;
+	padding: 1em;
+	margin: 2em;
 }
 .contact {
-	position: relative;
-	top: 350px;
 	background-color: rgba(255,255,255,.7);
-	text-indent: 7em;
+	clear: both;
+	text-indent: 3em;
 	padding-top: 2em;
 	padding-bottom: 2em;
+	margin: 2em 0 0 0;
 }
 .wrapper {
 	margin:0 auto 0 auto;
