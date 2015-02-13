@@ -1,6 +1,6 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 body {
-	color: #8A0009;
+	color: #222;
 	background-color: #A5A6A1;
 	font-family: 'Quattrocento', serif;
 	font-size:18px;
@@ -8,7 +8,7 @@ body {
 	background-image: url("../images/light_honeycomb.png");
 }
 h1 {
-	color: #ff0000;
+	color: #D70000;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 4em;
 	margin:.5em 0 .5em 0;
@@ -19,11 +19,8 @@ ul {
 li {
 	margin:.5em 0 .5em 1em;
 }
-img {
-	/*float: left; here?*/
-}
 a{
-	color: #FF590A;
+	color: #D70000;
 }
 #slogan {
 	font-style: italic;
