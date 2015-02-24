@@ -14,7 +14,9 @@ h1 {
 	margin:.5em 0 .5em 0;
 }
 nav {
-	background-color: #F6F6F6;
+	background-color: rgba(255,255,255,0);
+	float: right;
+	margin: 0 23em auto 2em;
 }
 nav a {
 	background-color: #D70000;
@@ -41,7 +43,7 @@ ul {
 li {
 	margin:.5em 0 .5em 1em;
 }
-a{
+a {
 	color: #D70000;
 }
 #slogan {
@@ -55,7 +57,7 @@ a{
 	background-color: rgba(255,255,255,.7);
 	float: right;
 	padding: 1em;
-	margin: 2em;
+	margin: 0 2em 2em 0;
 }
 .contact {
 	background-color: rgba(255,255,255,.7);
