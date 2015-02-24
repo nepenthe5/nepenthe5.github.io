@@ -7,16 +7,16 @@ body {
 	font-weight:400;
 	background-image: url("../images/light_honeycomb.png");
 }
-h1 {
-	color: #D70000;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 4em;
-	margin:.5em 0 .5em 0;
+header div {
+	float:left;
+}
+header div img, header div p {
+	float:left;
 }
 nav {
 	background-color: rgba(255,255,255,0);
 	float: right;
-	margin: 0 23em auto 2em;
+	margin-top:3em;
 }
 nav a {
 	background-color: #D70000;
@@ -24,18 +24,10 @@ nav a {
 	text-decoration: none;
 	display: block;
 	float: left;
-	padding: 20px;
+	padding: 1em;
 }
 nav a:hover{
 	background-color: #1485CC;
-}
-.clearfix:after{
-	visibility: hidden;
-	display: block;
-	content: " ";
-	clear: both;
-	height: 0;
-	font-size: 0;
 }
 ul {
 	list-style-type: none;
@@ -51,7 +43,7 @@ a {
 	font-style: italic;
 	font-size: 1.25em;
 	font-weight: 600;
-	margin: 2em auto 2em auto;
+	margin: 1em auto 1em auto;
 }
 .bodytext {
 	background-color: rgba(255,255,255,.7);
@@ -77,4 +69,11 @@ a {
 	margin:0 auto 0 auto;
 	max-width:1200px;
 }
-
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
