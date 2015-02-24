@@ -9,6 +9,7 @@ body {
 }
 header div {
 	float:left;
+	width:600px;
 }
 header div img, header div p {
 	float:left;
