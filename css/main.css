@@ -33,7 +33,7 @@ ul {
 	list-style-type: none;
 }
 li {
-	margin:.5em 0 .5em 1em;
+	margin:.5em 0;
 }
 a {
 	color: #D70000;
@@ -54,7 +54,6 @@ a {
 #contact {
 	background-color: rgba(255,255,255,.7);
 	clear: both;
-	text-indent: 3em;
 	padding-top: 2em;
 	padding-bottom: 2em;
 	margin: 2em 0 0 0;
