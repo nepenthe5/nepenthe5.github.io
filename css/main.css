@@ -42,6 +42,11 @@ a {
 img {
 	float:left;
 }
+footer {
+	float: right; /* this places the copyright text at the bottom of the page, instead of the bottom of the fold*/
+	text-align: right;
+	width:100%;
+}
 #slogan {
 	clear:both;
 	font-style: italic;
@@ -71,6 +76,7 @@ img {
 .wrapper {
 	margin:0 auto 0 auto;
 	max-width:1200px;
+	position: relative;
 }
 .clearfix:after{
 	visibility: hidden;
