@@ -11,6 +11,13 @@ header div {
 	float:left;
 	width:600px;
 }
+header h1 {
+	color: #D70000;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 4em;
+	margin:.5em 0 .5em 0;
+	float: left;
+}
 header div img, header div p {
 	float:left;
 }
@@ -60,18 +67,24 @@ footer {
 	padding: 1em;
 	width:60%;
 }
+#team {
+	background-color: rgba(255,255,255,.7);
+	padding: 1em;
+}
+#experts {
+	line-height: 2em;
+}
 #contact {
 	background-color: rgba(255,255,255,.7);
 	clear: both;
-	padding-top: 2em;
-	padding-bottom: 2em;
-	margin: 2em 0 0 0;
+	padding: 2em;
+	margin: 2em;
+	width: 60%;
 }
-#name {
-	color: #D70000;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 4em;
-	margin:.5em 0 .5em 0;
+span {
+	color: #1485CC;
+	font-weight: 600;
+	padding-right: .5em;
 }
 .wrapper {
 	margin:0 auto 0 auto;
