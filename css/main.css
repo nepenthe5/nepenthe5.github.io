@@ -81,8 +81,17 @@ footer {
 	background-color: rgb(0,0,0);
 	color: #fff;
 	line-height: 2em;
-	padding: 2em;
+	/*padding: 2em 2em 0 2em;*/
 	margin-bottom: 7em;
+	width: 100%;
+}
+.columnTeam {
+	max-width: 24.3%;
+	height: auto;
+	float: left;
+}
+.expertheadshots {
+	margin: 0;
 }
 #contact {
 	background-color: rgba(255,255,255,.7);
