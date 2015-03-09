@@ -91,11 +91,11 @@ footer {
 	margin: 2em;
 	width: 60%;
 }
-span {
+/*span {
 	color: #999;
 	font-weight: 600;
 	padding-right: .5em;
-}
+}*/
 .wrapper {
 	margin:0 auto 0 auto;
 	max-width:1200px;
