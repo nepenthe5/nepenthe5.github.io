@@ -94,10 +94,16 @@ footer {
 	width:100%;
 }
 .columnTeam div {
-	background:#D70000;
-	color:rgba(255,255,255,1);
+	background:rgba(215,0,0,0);
+	color:rgba(255,255,255,0);
+	padding:1em;
 	position:absolute;
 	top:0;right:0;bottom:0;left:0;
+}
+.columnTeam:hover div {
+	background:rgba(215,0,0,.8);
+	color:rgba(255,255,255,1);
+	transition-duration:.2s;
 }
 .expertheadshots {
 	margin: 0;
