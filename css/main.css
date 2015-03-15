@@ -69,7 +69,18 @@ footer {
 }
 #featuredworks img{
 	max-width: 60%;
-	padding: 2em;
+	padding: 3em;
+	float: left;
+}
+.workinfo {
+	background-color: rgba(255,255,255,.7);
+	max-width: 30%;
+	float: right;
+	margin: 3em 3em 3em 0;
+	padding: 1em;
+}
+.workinfo h1 {
+	margin-bottom: 1em;
 }
 #team {
 	background-color: rgba(255,255,255,.7);
@@ -115,11 +126,7 @@ footer {
 	margin: 2em;
 	width: 60%;
 }
-/*span {
-	color: #999;
-	font-weight: 600;
-	padding-right: .5em;
-}*/
+
 .wrapper {
 	margin:0 auto 0 auto;
 	max-width:1200px;
