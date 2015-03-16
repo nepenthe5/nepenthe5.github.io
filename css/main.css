@@ -46,9 +46,9 @@ li {
 a {
 	color: #D70000;
 }
-img {
+/*img {
 	float:left;
-}
+}*/
 footer {
 	float: right; /* this places the copyright text at the bottom of the page, instead of the bottom of the fold*/
 	text-align: right;
@@ -60,6 +60,9 @@ footer {
 	font-size: 1.25em;
 	font-weight: 600;
 	margin: 0 auto 3em 0.25em;
+}
+#mainnav {
+	float: left;
 }
 .bodytext {
 	background-color: rgba(255,255,255,.7);
