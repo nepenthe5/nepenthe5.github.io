@@ -129,10 +129,9 @@ footer {
 }
 #contact {
 	background-color: rgba(255,255,255,.7);
-	clear: both;
 	padding: 2em;
-	margin: 2em;
-	width: 60%;
+	margin: 3em 2em 7em 0;
+	max-width: 56%;
 }
 
 .wrapper {
