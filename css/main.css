@@ -87,6 +87,11 @@ footer {
 	padding: 2em;
 	margin-top: 3em;
 	margin-bottom: 7em;
+	max-width: 56%;
+	text-align: left;
+}
+#team h2 {
+	margin-bottom: .5em;
 }
 #experts {
 	background-color: rgb(0,0,0);
@@ -95,6 +100,9 @@ footer {
 	/*padding: 2em 2em 0 2em;*/
 	margin-bottom: 7em;
 	width: 100%;
+}
+#experts h2{
+	padding: .5em .5em .5em 5.2em;
 }
 .columnTeam {
 	float: left;
