@@ -61,11 +61,12 @@ footer {
 #logomark {
 	float: left;
 	width: auto;
+	margin: 1em .5em 5em 1em;
 }
 #logotext {
-	float: right;
-	margin: 0 0 0 1em;
-	width: 100%;
+	float: left;
+	margin: 1em 0 0 0;
+	width: 50%;
 }
 #slogan {
 	/*clear:both;*/
@@ -73,9 +74,11 @@ footer {
 	font-size: 1.25em;
 	font-weight: 600;
 	margin: 0 auto 3em 0.25em;
+	width: 50%;
 }
 #mainnav {
 	float: left;
+	margin: 0 1em 5em 1em;
 }
 .bodytext {
 	background-color: rgba(255,255,255,.7);
