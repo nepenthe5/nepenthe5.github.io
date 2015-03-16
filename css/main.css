@@ -71,10 +71,10 @@ footer {
 #slogan {
 	/*clear:both;*/
 	font-style: italic;
-	font-size: 1.25em;
+	font-size: 1.42em;
 	font-weight: 600;
-	margin: 0 auto 3em 0.25em;
-	width: 50%;
+	margin: 0;
+	width: auto;
 }
 #mainnav {
 	float: left;
