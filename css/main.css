@@ -21,7 +21,7 @@ header h1 {
 /*header div img,*/ header div p {  /*extraneous?*/
 	float:left;
 }
-/*nav {
+nav {
 	background-color: rgba(255,255,255,0);
 	float: right;
 	margin-top:3em;
@@ -36,7 +36,7 @@ nav a {
 }
 nav a:hover{
 	background-color: #1485CC;
-}*/
+}
 ul {
 	list-style-type: none;
 }

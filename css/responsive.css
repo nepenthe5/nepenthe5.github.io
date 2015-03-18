@@ -1,4 +1,18 @@
-@media only screen and (min-width: 620px) and (max-width: 970px) {
+@media only screen and (min-width: 1020px) and (max-width: 1260px) {
+	.bodytext {
+		width: 50%;
+		float: left;
+		margin-left: 4em;
+	}
+}
+@media only screen and (min-width: 970px) and (max-width: 1020px) {
+	.bodytext {
+		width: 50%;
+		float: left;
+		margin-left: 2em;
+	}
+}
+@media only screen and (min-width: 660px) and (max-width: 970px) {
 	.bodytext {
 		float: none;
 		width: auto;
@@ -9,7 +23,7 @@
 		width: auto;
 	}
 }
-@media only screen and (max-width: 620px) {
+@media only screen and (min-width: 635px) and (max-width: 660px) {
 	.bodytext {
 		float: none;
 		width: auto;
@@ -19,5 +33,104 @@
 		float: none;
 		width: auto;
 	}
-	
+	#logomark {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#slogan {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: 75%;
+	}
+	#mainnav {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 70%;
+	}
+	#mainnav img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+@media only screen and (max-width: 635px) { /*start shrinking!*/
+	.bodytext {
+		float: none;
+		width: auto;
+		margin: 4em;
+	}
+	#mainnav {
+		float: none;
+		width: auto;
+	}
+	#logomark {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#slogan {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: 75%;
+	}
+	#mainnav {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 70%;
+	}
+	#mainnav img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+
+
 }
