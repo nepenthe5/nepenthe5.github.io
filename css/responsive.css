@@ -77,11 +77,13 @@
 	  margin-right: auto;
 	  width: auto;
 	}
+}
 @media only screen and (max-width: 635px) { /*start shrinking!*/
 	.bodytext {
 		float: none;
-		width: auto;
+		width: auto; /*changed width to shrink*/
 		margin: 4em;
+		font-size: .8em;
 	}
 	#mainnav {
 		float: none;
@@ -98,26 +100,27 @@
 		display: block;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: auto;
+	  width: 30%;
 	}
 	#logotext {
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: 80%;
+	  width: 70%;
 	}
 	#logotext img {
 		display: block;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: auto;
+	  width: 90%;
 	}
 	#slogan {
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom: 3em;
-	  width: 75%;
+	  width: 60%;
+	  font-size: 1em;
 	}
 	#mainnav {
 		float: none;
@@ -129,8 +132,7 @@
 		display: block;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: auto;
+	  width: 65%;
 	}
-
-
 }
+
