@@ -146,7 +146,7 @@
 		padding: 0 .5em 0 0; /*Set right padding to .5em*/
 	}
 }
-@media only screen and (max-width: 1208px) {
+@media only screen and (min-width: 1125px) and (max-width: 1208px) {
 	header h1{
 		padding: 0 0 0 .5em; /*Set left padding to .5em*/
 	}
@@ -157,4 +157,36 @@
 	.workinfo p{
 		font-size: .9em;
 	}
+}
+@media only screen and (max-width: 1125px) { /*start stacking elements!*/
+	header h1{
+		padding: 0 0 0 .5em; /*Set left padding to .5em*/
+	}
+	nav {
+		padding: 0 .5em 0 0; /*Set right padding to .5em*/
+	}
+	.workinfo p{
+		font-size: .9em;
+	}
+/*New for this media query*/
+	.workinfo {
+		float: none;
+		margin: 3em;
+		padding: 1em;
+		width: auto;
+		max-width: none;
+	}
+	.workdescription{
+	  -webkit-column-count: 3;
+		-webkit-column-gap: 2em;
+		-moz-column-count: 3;
+		-moz-column-gap: 2em;
+	}
+	#featuredworks img{
+		float: none;
+		width: 100%;
+		max-width: none;
+		padding: 3em;
+		margin: 0 auto 0 auto;
+		}
 }
