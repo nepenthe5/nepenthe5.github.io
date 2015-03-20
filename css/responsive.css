@@ -1,3 +1,4 @@
+/*Home page media queries here*/
 @media only screen and (min-width: 1020px) and (max-width: 1260px) {
 	.bodytext {
 		width: 50%;
@@ -136,4 +137,24 @@
 	  width: 75%;
 	}
 }
-
+/*Work page media queries here*/
+@media only screen and (min-width: 1208px) and (max-width: 1260px) {
+	header h1{
+		padding: 0 0 0 .5em; /*Set left padding to .5em*/
+	}
+	nav {
+		padding: 0 .5em 0 0; /*Set right padding to .5em*/
+	}
+}
+@media only screen and (max-width: 1208px) {
+	header h1{
+		padding: 0 0 0 .5em; /*Set left padding to .5em*/
+	}
+	nav {
+		padding: 0 .5em 0 0; /*Set right padding to .5em*/
+	}
+/*New for this media query*/
+	.workinfo p{
+		font-size: .9em;
+	}
+}

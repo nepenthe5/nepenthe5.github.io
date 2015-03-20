@@ -88,7 +88,7 @@ footer {
 }
 #featuredworks img{
 	max-width: 60%;
-	padding: 3em;
+	padding: 3em 2em 3em 3em;
 	float: left;
 }
 .workinfo {
@@ -152,7 +152,6 @@ footer {
 	margin: 3em 2em 7em 0;
 	max-width: 56%;
 }
-
 .wrapper {
 	margin:0 auto 0 auto;
 	max-width:1200px;
