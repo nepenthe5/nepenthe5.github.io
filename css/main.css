@@ -101,6 +101,9 @@ footer {
 .workinfo h1 {
 	margin-bottom: 1em;
 }
+.workdescription p{
+	margin-bottom: 1em;
+}
 #team {
 	background-color: rgba(255,255,255,.7);
 	padding: 2em;
