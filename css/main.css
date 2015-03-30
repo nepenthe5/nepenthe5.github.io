@@ -100,11 +100,11 @@ section#hexagons {
   }
   .row3 {
     position: relative;
-    top:64px;
+    top:85px;
   }
   .row4 {
     position: relative;
-    top:198px;
+    top:220px;
     left:-232px;
   }
   .hexagonPosition {
