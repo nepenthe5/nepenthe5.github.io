@@ -1,42 +1,45 @@
 /*Home page media queries here*/
 @media only screen and (min-width: 1020px) and (max-width: 1260px) {
+	section#hexagons {
+		float: none;
+		margin: 0 30% 0 35%;
+	}
 	.bodytext {
-		width: 50%;
-		float: left;
-		margin-left: 4em;
-		margin-top: 20em;
+		width: 70%;
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 12em;
 	}
 }
 @media only screen and (min-width: 970px) and (max-width: 1020px) {
 	.bodytext {
 		width: 50%;
 		float: left;
-		margin-left: 2em;
-		margin-top: 20em;
+		margin-left: 1em;
+		margin-top: 12em;
 	}
 }
 @media only screen and (min-width: 660px) and (max-width: 970px) {
 	.bodytext {
 		float: none;
 		width: auto;
-		margin: 4em;
-		margin-top: 20em;
+		margin-left: 1em;
+		margin-top: 12em;
 	}
-	#mainnav {
+	section#hexagons {
 		float: none;
-		width: auto;
 	}
 }
 @media only screen and (min-width: 635px) and (max-width: 660px) {
 	.bodytext {
 		float: none;
 		width: auto;
-		margin: 4em;
-		margin-top: 20em;
+		margin-left: 1em;
+		margin-top: 12em;
 	}
-	#mainnav {
+	section#hexagons {
 		float: none;
-		width: auto;
 	}
 	#logomark {
 		float: none;
@@ -70,7 +73,7 @@
 	  margin-bottom: 3em;
 	  width: 75%;
 	}
-	#mainnav {
+	/*#mainnav {
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
@@ -81,19 +84,18 @@
 		margin-left: auto;
 	  margin-right: auto;
 	  width: auto;
-	}
+	}*/
 }
 @media only screen and (max-width: 635px) { /*start shrinking!*/
 	.bodytext {
 		float: none;
 		width: auto; /*changed width to shrink*/
-		margin: 4em;
-		margin-top: 20em;
+		margin-left: 1em;
+		margin-top: 12em;
 		font-size: .8em;
 	}
-	#mainnav {
+	section#hexagons {
 		float: none;
-		width: auto;
 	}
 	#logomark {
 		float: none;
@@ -129,7 +131,7 @@
 	  font-size: 1em;
 	  text-align: center; /*fixed slogan breaking problem*/
 	}
-	#mainnav {
+	/*#mainnav {
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
@@ -140,7 +142,7 @@
 		margin-left: auto;
 	  margin-right: auto;
 	  width: 75%;
-	}
+	}*/
 }
 /*Work page media queries here*/
 @media only screen and (min-width: 1208px) and (max-width: 1260px) {

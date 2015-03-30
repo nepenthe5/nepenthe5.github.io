@@ -113,7 +113,8 @@ section#hexagons {
     height: 400px;*/
     width:150px;
     height:200px;
-    top: -85px;
+    top: -56px;
+    left: 21px;
   }
   .hexagonRotation1 {
     overflow: hidden;
