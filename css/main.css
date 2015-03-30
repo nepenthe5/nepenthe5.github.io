@@ -86,8 +86,10 @@ section#hexagons {
     float: left;
   }
   .item {
-    width: 200px;
-    height: 230px;
+    /*width: 200px;
+    height: 230px;*/
+    width:150px;
+    height:180px;
     position: relative;
     display: inline-block;
   }
@@ -107,8 +109,10 @@ section#hexagons {
   }
   .hexagonPosition {
     position: absolute;
-    width: 200px;
-    height: 400px;
+    /*width: 200px;
+    height: 400px;*/
+    width:150px;
+    height:200px;
     top: -85px;
   }
   .hexagonRotation1 {
