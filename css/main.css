@@ -7,10 +7,6 @@ body {
 	font-weight:400;
 	background-image: url("../images/light_honeycomb.png");
 }
-header div {
-	float:left;
-	width: 50%;
-}
 section h1 { /*Change to #otherpageheaders?*/
 	color: #D70000;
 	font-family: 'Josefin Sans', sans-serif;
@@ -47,16 +43,13 @@ li {
 a {
 	color: #D70000;
 }
-/*img {
-	float:left;
-}*/
 footer {
 	float: right; /* this places the copyright text at the bottom of the page, instead of the bottom of the fold*/
 	text-align: right;
 	width:100%;
 }
 #logoslogan {
-	/*float: left;*/
+	float: left;
 	width: 100%;
 }
 #logomark {
@@ -87,9 +80,9 @@ footer {
 	padding: 1em;
 	width:60%;
 }
-/***Hamburger button css***/
+/************Hamburger button CSS****************/
 .mobile-nav {
-	/*display: none; makes Hamburger invisible as default*/
+	display: none; /*makes Hamburger menu invisible as default*/
 }
 .menu-btn {
 	background-color: #D70000;
@@ -112,16 +105,27 @@ footer {
 	width: 19px;
 	height: 3px;
 	margin: 4px 0;
-	background: rgb(0,0,0);
+	background: rgb(255,255,255);
 	z-index: 99;
 }
-.responsive-menu{
+.responsive-menu {
 	display: none;
 }
 .expand {
-	display: block !important; 
+	display: block !important;
+	background-color: #D70000;
+	padding: 1em;
+	color: #fff;
 }
-/*End Hamburger button css*/
+.mobile-nav a { /*Makes mobile nav links white & removes underlines*/
+	color: #fff;
+	text-decoration: none;
+}
+/******************End Hamburger button CSS**************/
+.logomarkothers { /*These are the logomarks on all other pages except the home page*/
+	width: 50%;
+	float: left;
+}
 #featuredworks img{
 	max-width: 60%;
 	padding: 3em 2em 3em 3em;

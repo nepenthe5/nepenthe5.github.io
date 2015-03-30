@@ -236,7 +236,7 @@
 		width: 50%;
 	}	
 }
-@media only screen and (max-width: 580x) { /*Hamburger menu and page elements to full width*/
+@media only screen and (max-width: 580px) { /*Hamburger menu and page elements to full width*/
 	section h1{
 		padding: 0 0 0 .5em; /*Set left padding to .5em    Delete?*/
 	}
@@ -273,4 +273,13 @@
 		width: 50%;
 	}
 /*New for this media query*/
+	.mobile-nav {
+		display: block; /*makes Hamburger visible*/
+	}
+	nav {
+		display: none;
+	}
+	.logomarkothers { /*Fix this! not working!*/
+		display: none;
+	}
 }

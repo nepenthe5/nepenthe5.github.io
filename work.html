@@ -13,15 +13,15 @@
 <body>
 	<div class="wrapper">
 	<header class="clearfix"> <!-- Header: Logo and nav here. -->
-		<div>
+		<div class="logomarkothers">
 			<img src="images/logo2.png" alt="">
 		</div>
 		<nav class="clearfix">
-			<a href="index.html">Home</a>
+			<!-- <a href="index.html">Home</a> Put this link on logo! -->
 			<a href="about.html">About</a>
 			<a href="contact.html">Contact</a>
 		</nav>
-		<div class="mobile-nav"> <!-- Change content here -->
+		<div class="mobile-nav"> <!-- Hamburger menu. Change content here -->
 		     <div class="menu-btn" id="menu-btn">
 			<div></div>
 			<span></span>
@@ -31,8 +31,8 @@
 		 
 		     <div class="responsive-menu">
 		        <ul>
-		           <li>1. Object</li>
-		           <li>2. Object</li>
+		           <li><a href="about.html">About</a></li>
+		           <li><a href="contact.html">Contact</a></li>
 		        </ul>
 		     </div>
 		</div>
@@ -83,7 +83,7 @@
 	    		$( '.menu-btn' ).click(function(){
     	    $('.responsive-menu').toggleClass('expand')
     	    })
-	    	})
+	    	//})
 	    	
 	    	  $( '.close-btn' ).click(function(){
 	    		$('.responsive-menu').removeClass('expand')
