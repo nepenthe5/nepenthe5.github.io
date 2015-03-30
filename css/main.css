@@ -95,17 +95,17 @@ section#hexagons {
   }
   .row2 {
     position:relative;
-    top:178px;
-    left:-103px;
+    top:135px;
+    left:-77px;
   }
   .row3 {
     position: relative;
-    top:122px;
+    top:64px;
   }
   .row4 {
     position: relative;
-    top:300px;
-    left:-306px;
+    top:198px;
+    left:-232px;
   }
   .hexagonPosition {
     position: absolute;
