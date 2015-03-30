@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>About</title>
@@ -13,14 +14,30 @@
 	<div class="wrapper">
 		<header class="clearfix">
 			<div>
-				<h1>About</h1>
+				<!-- Put logo here. -->
 			</div>
 			<nav class="clearfix">
 				<a href="index.html">Home</a>
 				<a href="work.html">Work</a>
 				<a href="contact.html">Contact</a>
 			</nav>
+			<div class="mobile-nav"> <!-- Hamburger menu. Change content here -->
+		     <div class="menu-btn" id="menu-btn">
+			<div></div>
+			<span></span>
+			<span></span>
+			<span></span>
+		     </div>
+		 
+		     <div class="responsive-menu">
+		        <ul>
+		           <li><a href="work.html">Work</a></li>
+		           <li><a href="contact.html">Contact</a></li>
+		        </ul>
+		     </div>
+		</div>
 		</header>
+		<h1>About</h1>
 		<section id="team">
 			<h2>Our Team</h2>
 			<p>Martin Design is home to a dedicated group of top-notch design experts. Since 2005, we've been
@@ -68,6 +85,19 @@
 		<footer>
 			<p>&copy;2015 Martin Design</p>
 		</footer>
+		<script type="text/javascript">
+		jQuery(function($){
+	    		$( '.menu-btn' ).click(function(){
+    	    $('.responsive-menu').toggleClass('expand')
+    	    })
+	    	//})
+	    	
+	    	  $( '.close-btn' ).click(function(){
+	    		$('.responsive-menu').removeClass('expand')
+	    		$('.menu-btn').removeClass('btn-none')
+	    	})
+	  	})
+	 </script>
 	</div>
 </body>
 </html>
