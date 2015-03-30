@@ -194,9 +194,9 @@
 		margin: 0 auto 0 auto;
 		}
 }
-@media only screen and (max-width: 885px) { /*change paragraphs to stack vertically*/
-	header h1{
-		padding: 0 0 0 .5em; /*Set left padding to .5em*/
+@media only screen and (min-width: 580px) and (max-width: 885px) { /*change paragraphs to stack vertically*/
+	section h1{
+		padding: 0 0 0 .5em; /*Set left padding to .5em    Delete?*/
 	}
 	nav {
 		padding: 0 .5em 0 0; /*Set right padding to .5em*/
@@ -211,11 +211,14 @@
 		width: auto;
 		max-width: none;
 	}
-	.workdescription p{ /*Changed this!*/
+	.workdescription {
+		width: auto;
+	}
+	.workdescription p{ /*Changed this to center paragraphs within white box*/
 		float: none;
-		width: 75%;
+		width: 90%; /*Changed this!*/
 		padding: 1em;
-		margin: 0;
+		margin: 0 auto 0 auto; /*Changed this!*/
 	  /*-webkit-column-count: 3;
 		-webkit-column-gap: 2em;
 		-moz-column-count: 3;
@@ -233,4 +236,41 @@
 		width: 50%;
 	}	
 }
-
+@media only screen and (max-width: 580x) { /*Hamburger menu and page elements to full width*/
+	section h1{
+		padding: 0 0 0 .5em; /*Set left padding to .5em    Delete?*/
+	}
+	nav {
+		padding: 0 .5em 0 0; /*Set right padding to .5em*/
+	}
+	.workinfo p{
+		font-size: .9em;
+	}
+	.workinfo {
+		float: none;
+		margin: .5em 3em 5em 3em;
+		padding: 1em;
+		width: auto;
+		max-width: none;
+	}
+	.workdescription {
+		width: auto;
+	}
+	.workdescription p{ /*Changed this to center paragraphs within white box*/
+		float: none;
+		width: 90%; 
+		padding: 1em;
+		margin: 0 auto 0 auto;
+	}
+	#featuredworks img{
+		float: none;
+		width: 100%;
+		max-width: none;
+		padding: 3em;
+		margin: 0 auto 0 auto;
+	}
+	.workinfo h1 {
+		width: 50%;
+	}
+/*New for this media query*/
+}
