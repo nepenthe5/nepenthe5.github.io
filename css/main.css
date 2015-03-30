@@ -9,7 +9,7 @@ body {
 }
 header div {
 	float:left;
-	width:600px;
+	width: 50%;
 }
 header h1 {
 	color: #D70000;
@@ -91,7 +91,7 @@ footer {
 	padding: 3em 2em 3em 3em;
 	float: left;
 }
-.workinfo {
+.workinfo { /*White background containers for work titles and descriptions*/
 	background-color: rgba(255,255,255,.7);
 	max-width: 30%;
 	float: right;
