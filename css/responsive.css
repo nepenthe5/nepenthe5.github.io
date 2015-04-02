@@ -1,6 +1,6 @@
 /*Home page media queries here*/
 @media only screen and (min-width: 1020px) and (max-width: 1260px) {
-	section#hexagons {
+	/*section#hexagons {
 		float: none;
 		margin: 0 30% 0 35%;
 	}
@@ -10,36 +10,159 @@
 		margin-left: auto;
 		margin-right: auto;
 		margin-top: 12em;
+	}*/
+}
+@media only screen and (min-width: 950px) and (max-width: 1024px) { /*Center Main Hex Nav, Bodytext, & Header elements*/
+	.bodytext { /*Text Content*/
+		width: 75%;
+  	float: none;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 12em;
+	}
+	section#hexagons { /*Main Hex Nav*/
+		float: none;
+		margin: 0 30% 0 30%;
+	}
+	/*Center Header elements here*/
+	#logomark {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#slogan {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: auto;
+	  text-align: center;
 	}
 }
-@media only screen and (min-width: 970px) and (max-width: 1020px) {
+@media only screen and (min-width: 805px) and (max-width: 950px) { /*Only changed nav margins*/
+	.bodytext { /*Text Content*/
+		width: 75%;
+  	float: none;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 12em;
+	}
+	section#hexagons { /*Main Hex Nav*/
+		float: none;
+		margin: 0 25% 0 25%; /*CHANGED THIS*/
+	}
+	/*Center Header elements here*/
+	#logomark {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#slogan {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: auto;
+	  text-align: center;
+	}
+}
+@media only screen and (min-width: 660px) and (max-width: 805px) { /*Only changed nav margins*/
+	.bodytext { /*Text Content*/
+		width: 75%;
+  	float: none;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 12em;
+	}
+	section#hexagons { /*Main Hex Nav*/
+		float: none;
+		margin: 0 auto 0 auto; /*CHANGED THIS*/
+	}
+	/*Center Header elements here*/
+	#logomark {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img {
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#slogan {
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: auto;
+	  text-align: center;
+	}
+}
+@media only screen and (max-width: 660px) { /*Changed width of Bodytext to shrink*/
 	.bodytext {
-		width: 50%;
-		float: left;
+		float: none;
+		width: auto; /*CHANGED THIS*/
 		margin-left: 1em;
 		margin-top: 12em;
 	}
-}
-@media only screen and (min-width: 660px) and (max-width: 970px) {
-	.bodytext {
+	section#hexagons { /*Main Hex Nav*/
 		float: none;
-		width: auto;
-		margin-left: 1em;
-		margin-top: 12em;
-	}
-	section#hexagons {
-		float: none;
-	}
-}
-@media only screen and (min-width: 635px) and (max-width: 660px) {
-	.bodytext {
-		float: none;
-		width: auto;
-		margin-left: 1em;
-		margin-top: 12em;
-	}
-	section#hexagons {
-		float: none;
+		margin: 0 auto 0 auto;
 	}
 	#logomark {
 		float: none;
@@ -71,25 +194,14 @@
 		margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom: 3em;
-	  width: 75%;
-	}
-	/*#mainnav {
-		float: none;
-		margin-left: auto;
-	  margin-right: auto;
-	  width: 70%;
-	}
-	#mainnav img {
-		display: block;
-		margin-left: auto;
-	  margin-right: auto;
 	  width: auto;
-	}*/
+	  text-align: center;
+	}
 }
-@media only screen and (max-width: 635px) { /*start shrinking!*/
+/*@media only screen and (max-width: 635px) { start shrinking!
 	.bodytext {
 		float: none;
-		width: auto; /*changed width to shrink*/
+		width: auto; 
 		margin-left: 1em;
 		margin-top: 12em;
 		font-size: .8em;
@@ -127,23 +239,12 @@
 		margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom: 3em;
-	  width: 90%;					/*fixed slogan breaking problem*/
+	  width: 90%;					
 	  font-size: 1em;
-	  text-align: center; /*fixed slogan breaking problem*/
+	  text-align: center; 
 	}
-	/*#mainnav {
-		float: none;
-		margin-left: auto;
-	  margin-right: auto;
-	  width: 70%;
-	}
-	#mainnav img {
-		display: block;
-		margin-left: auto;
-	  margin-right: auto;
-	  width: 75%;
-	}*/
-}
+}*/
+
 /*Work page media queries here*/
 @media only screen and (min-width: 1208px) and (max-width: 1260px) {
 	header h1{
