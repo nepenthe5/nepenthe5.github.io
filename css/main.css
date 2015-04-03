@@ -173,6 +173,9 @@ section#hexagons {
 .mobile-nav {
 	display: none; /*makes Hamburger menu invisible as default*/
 }
+.homemobile-nav { /*Homepage mobile nav--needs to act differently*/
+  display: none;
+}
 .menu-btn {
 	background-color: #D70000;
 	padding: 1em;
@@ -210,6 +213,15 @@ section#hexagons {
 	color: #fff;
 	text-decoration: none;
 }
+.homemobile-nav a { /*Makes Home mobile nav links white & removes underlines*/
+  color: #fff;
+  text-decoration: none;
+}
+/*.mobilelogomark {
+  position: absolute;
+  right: 0;
+  width: 25%;
+}*/
 /******************End Hamburger button CSS**************/
 .logomarkothers { /*These are the logomarks on all other pages except the home page*/
 	width: 50%;

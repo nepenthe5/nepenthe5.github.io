@@ -245,7 +245,7 @@
 	  font-size: 1.2em; /*CHANGED*/
 	}
 }
-@media only screen and (max-width: 515px) { /*Shrink Bodytext h2 and ul*/
+@media only screen and (min-width: 430px) and (max-width: 515px) { /*Shrink Bodytext h2 and ul*/
 	.bodytext {
 		float: none;
 		width: auto; 
@@ -298,6 +298,68 @@
 	  width: auto;
 	  text-align: center;
 	  font-size: 1.2em; /*CHANGED*/
+	}
+}
+@media only screen and (max-width: 430px) { /*Add Hamburger menu here; Shrink Slogan, etc.*/
+	.bodytext {
+		float: none;
+		width: auto; 
+		margin-left: 0; /*CHANGED*/
+		margin-right: 0; /*CHANGED*/
+		margin-top: 1em; /*CHANGED from 12em*/
+	}
+	/*New*/
+	.bodytext h2 {
+		font-size: 1.2em;
+	}
+	ul {
+		font-size: .9em;
+	}
+	/*End New*/
+	section#hexagons { /*Main Hex Nav*/
+		float: none;
+		margin: 0 auto 0 auto;
+	}
+	#logomark { 
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img { /*DISAPPEAR this when get logo in Ham working?*/
+		display: block; 
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 35%;
+	}
+	#logotext { /*Shrink this*/
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img { /*Shrink this*/
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 90%; /*CHANGED from auto*/
+	}
+	#slogan { /*Shrink this*/
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 5em; /*Increased spacing here*/
+	  width: auto;
+	  text-align: center;
+	  font-size: .9em; /*CHANGED*/
+	}
+	/*Nav elements*/
+	.homemobile-nav {
+		display: block; /*makes Hamburger visible*/
+	}
+	section#hexagons {
+		display: none;
 	}
 }
 

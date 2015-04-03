@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Martin Design</title>
@@ -11,6 +12,27 @@
 </head>
 <body>
 	<div class="wrapper">
+    <div class="homemobile-nav"> <!-- Hamburger menu. Change content here -->
+         <div class="menu-btn" id="menu-btn">
+      <div></div>
+      <span></span>
+      <span></span>
+      <span></span>
+          <!-- <div class="mobilelogomark">
+            <img src="images/logo2.png" alt="">
+          </div> -->
+         </div>
+        
+         <div class="responsive-menu">
+            <ul>
+              <li><a href="work.html">Work</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </div>
+
+    </div>
+    <!-- End Mobile Nav -->
 		<header class="clearfix">
 			<div id="logoslogan">
 				<div id="logomark">
@@ -21,6 +43,7 @@
 				</div>
 				<p id="slogan">Sophisticated design one pixel at a time</p>
 			</div>
+
 		</header>
     <!-- Main nav hexagon element -->
     <section id="hexagons"> 
@@ -90,6 +113,19 @@
 	<footer>
 		<p>&copy;2015 Martin Design</p>
 	</footer>
+  <script type="text/javascript">
+    jQuery(function($){
+          $( '.menu-btn' ).click(function(){
+          $('.responsive-menu').toggleClass('expand')
+          })
+        //})
+        
+          $( '.close-btn' ).click(function(){
+          $('.responsive-menu').removeClass('expand')
+          $('.menu-btn').removeClass('btn-none')
+        })
+      })
+   </script>
 	</div>
 </body>
 </html>
