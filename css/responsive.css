@@ -311,6 +311,7 @@
 	/*New*/
 	.bodytext h2 {
 		font-size: 1.2em;
+		margin-bottom: 1em; /*ADDED*/
 	}
 	ul {
 		font-size: .9em;
@@ -349,7 +350,7 @@
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
-	  margin-bottom: 5em; /*Increased spacing here*/
+	  margin-bottom: 2em; /*Decreased spacing here*/
 	  width: auto;
 	  text-align: center;
 	  font-size: .9em; /*CHANGED*/
