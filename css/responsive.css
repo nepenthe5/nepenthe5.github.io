@@ -153,7 +153,7 @@
 	  text-align: center;
 	}
 }
-@media only screen and (max-width: 660px) { /*Changed width of Bodytext to shrink*/
+@media only screen and (min-width: 590px) and (max-width: 660px) { /*Changed width of Bodytext to shrink*/
 	.bodytext {
 		float: none;
 		width: auto; /*CHANGED THIS*/
@@ -198,54 +198,112 @@
 	  text-align: center;
 	}
 }
-/*@media only screen and (max-width: 635px) { start shrinking!
+@media only screen and (min-width: 515px) and (max-width: 590px) { /*start shrinking Company name, Slogan; put Bodytext @ 100%; */
 	.bodytext {
 		float: none;
 		width: auto; 
-		margin-left: 1em;
+		margin-left: 0; /*CHANGED*/
+		margin-right: 0; /*CHANGED*/
 		margin-top: 12em;
-		font-size: .8em;
 	}
-	section#hexagons {
+	section#hexagons { /*Main Hex Nav*/
 		float: none;
+		margin: 0 auto 0 auto;
 	}
-	#logomark {
+	#logomark { 
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom: 0;
 	  width: 70%;
 	}
-	#logomark img {
-		display: block;
+	#logomark img { /*Shrink this*/
+		display: block; 
 		margin-left: auto;
 	  margin-right: auto;
-	  width: 30%;
+	  width: auto;
 	}
-	#logotext {
+	#logotext { /*Shrink this*/
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: 70%;
+	  width: 80%;
 	}
-	#logotext img {
+	#logotext img { /*Shrink this*/
 		display: block;
 		margin-left: auto;
 	  margin-right: auto;
-	  width: 90%;
+	  width: 90%; /*CHANGED from auto*/
 	}
-	#slogan {
+	#slogan { /*Shrink this*/
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
 	  margin-bottom: 3em;
-	  width: 90%;					
-	  font-size: 1em;
-	  text-align: center; 
+	  width: auto;
+	  text-align: center;
+	  font-size: 1.2em; /*CHANGED*/
 	}
-}*/
+}
+@media only screen and (max-width: 515px) { /*Shrink Bodytext h2 and ul*/
+	.bodytext {
+		float: none;
+		width: auto; 
+		margin-left: 0; /*CHANGED*/
+		margin-right: 0; /*CHANGED*/
+		margin-top: 12em;
+	}
+	/*New*/
+	.bodytext h2 {
+		font-size: 1.2em;
+	}
+	ul {
+		font-size: .9em;
+	}
+	/*End New*/
+	section#hexagons { /*Main Hex Nav*/
+		float: none;
+		margin: 0 auto 0 auto;
+	}
+	#logomark { 
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	  width: 70%;
+	}
+	#logomark img { /*Shrink this*/
+		display: block; 
+		margin-left: auto;
+	  margin-right: auto;
+	  width: auto;
+	}
+	#logotext { /*Shrink this*/
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 80%;
+	}
+	#logotext img { /*Shrink this*/
+		display: block;
+		margin-left: auto;
+	  margin-right: auto;
+	  width: 90%; /*CHANGED from auto*/
+	}
+	#slogan { /*Shrink this*/
+		float: none;
+		margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 3em;
+	  width: auto;
+	  text-align: center;
+	  font-size: 1.2em; /*CHANGED*/
+	}
+}
 
-/*Work page media queries here*/
+/***************************
+Work page media queries here
+***************************/
 @media only screen and (min-width: 1208px) and (max-width: 1260px) {
 	header h1{
 		padding: 0 0 0 .5em; /*Set left padding to .5em*/
