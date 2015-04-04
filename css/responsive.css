@@ -363,7 +363,7 @@
 		display: none;
 	}
 }
-@media only screen and (max-width: 320px) { /*Fix padding of h2 and slogan here*/
+@media only screen and (max-width: 320px) { /*Fixed padding of h2 and slogan here*/
 	.bodytext {
 		float: none;
 		width: auto; 
@@ -374,7 +374,7 @@
 	/*New*/
 	.bodytext h2 {
 		font-size: 1.2em;
-		margin-bottom: 1.5em; /*Fix*/
+		margin-bottom: 1.5em; /*Fixed*/
 	}
 	ul {
 		font-size: .9em;
@@ -413,7 +413,7 @@
 		float: none;
 		margin-left: auto;
 	  margin-right: auto;
-	  margin-bottom: 1.5em; /*Decreased spacing here*/
+	  margin-bottom: 1.5em; /*Decreased spacing here--Fixed*/
 	  width: auto;
 	  text-align: center;
 	  font-size: .9em; /*CHANGED*/
