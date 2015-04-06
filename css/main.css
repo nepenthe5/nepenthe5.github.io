@@ -168,6 +168,19 @@ section#hexagons {
   	color: #fff;
   	text-decoration: none;
   }
+/*Hover effects*/
+.hexagonRotation3:hover{
+  background-color: #1485CC;
+}
+#blankhex1:hover{
+  background-image: url("../images/geobghex1.jpg");
+}
+#blankhex2:hover{
+  background-image: url("../images/geobghexgold3.jpg");
+}
+#blankhex3:hover{
+  background-image: url("../images/geobghexblue2.jpg");
+}
 /************End Main Nav element*******************/
 /************Hamburger button CSS****************/
 .mobile-nav {
