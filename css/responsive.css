@@ -1,17 +1,4 @@
 /*Home page media queries here*/
-@media only screen and (min-width: 1020px) and (max-width: 1260px) {
-	/*section#hexagons {
-		float: none;
-		margin: 0 30% 0 35%;
-	}
-	.bodytext {
-		width: 70%;
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 12em;
-	}*/
-}
 @media only screen and (min-width: 950px) and (max-width: 1024px) { /*Center Main Hex Nav, Bodytext, & Header elements*/
 	.bodytext { /*Text Content*/
 		width: 75%;
@@ -574,3 +561,10 @@ Work page media queries here
 		display: none;
 	}
 }
+/****************************
+About page media queries here
+****************************/
+
+/******************************
+Contact page media queries here
+******************************/

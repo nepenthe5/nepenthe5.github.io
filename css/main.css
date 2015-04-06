@@ -7,7 +7,7 @@ body {
 	font-weight:400;
 	background-image: url("../images/light_honeycomb.png");
 }
-section h1 { /*Change to #otherpageheaders?*/
+h1 { /*Change to #otherpageheaders?*/
 	color: #D70000;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 4em;
@@ -240,17 +240,29 @@ section#hexagons {
 	width: 50%;
 	float: left;
 }
+#work1 {
+  background-color: rgba(255,255,255,.7);
+}
+#work2 {
+  background-color: rgba(255,255,255,.7);
+  margin-top: 7em;
+}
+#work3 {
+  background-color: rgba(255,255,255,.7);
+  margin-top: 7em;
+}
 #featuredworks img{
 	max-width: 60%;
-	padding: 3em 2em 3em 3em;
+	padding: 3em 0 3em 3em;
 	float: left;
 }
 .workinfo { /*White background containers for work titles and descriptions*/
-	background-color: rgba(255,255,255,.7);
+	/*background-color: rgba(255,255,255,.7);*/
 	max-width: 30%;
 	float: right;
-	margin: 3em 3em 3em 0;
-	padding: 1em;
+  padding: 3em 2em 0 0;
+	/*margin: 3em 3em 3em 0;
+	padding: 1em;*/
 }
 .workinfo h2 {
 	margin-bottom: 1em;
