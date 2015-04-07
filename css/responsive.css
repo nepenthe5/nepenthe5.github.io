@@ -563,6 +563,31 @@ Work page media queries here
 /****************************
 About page media queries here
 ****************************/
+@media only screen and (max-width: 1010px) { /*Change Experts arrangement to 2 top, 2 bottom*/
+	#one {
+		float: left;
+	  width: 40%;
+	  margin-left: 5em;
+	}
+	#two {
+		float: right;
+	  width: 40%;
+	  margin-right: 5em;
+	}
+	#three {
+		float: left;
+	  width: 40%;
+	  margin-left: 5em;
+	}
+	#four {
+		float: right;
+	  width: 40%;
+	  margin-right: 5em;
+	}
+}
+@media only screen and (max-width: 915px) { /*Change experts arrangement to stacked on top of each other*/
+
+}
 
 /******************************
 Contact page media queries here
