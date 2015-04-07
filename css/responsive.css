@@ -614,14 +614,13 @@ About page media queries here
 	.columnTeam:hover div { /*Don't display hover but display div*/
 		background:rgba(215,0,0,1);
 		color:rgba(255,255,255,1);
-		float: right;
+		position: relative;
 		width: 100%;
 		margin-bottom: 5em;
 	}
 	.columnTeam div {
 		background: rgba(215,0,0,1);
 	  color: rgba(255,255,255,1);
-	  /* float: right; */
 	  position: relative;
 	  width: 100%;
 	  margin-bottom: 5em;
@@ -634,14 +633,13 @@ About page media queries here
 	.columnTeam:hover div { /*Don't display hover but display div*/
 		background:rgba(215,0,0,1);
 		color:rgba(255,255,255,1);
-		float: right;
+		position: relative;
 		width: 100%;
 		margin-bottom: 5em;
 	}
 	.columnTeam div {
 		background: rgba(215,0,0,1);
 	  color: rgba(255,255,255,1);
-	  /* float: right; */
 	  position: relative;
 	  width: 100%;
 	  margin-bottom: 5em;
@@ -680,14 +678,13 @@ About page media queries here
 	.columnTeam:hover div { /*Don't display hover but display div*/
 		background:rgba(215,0,0,1);
 		color:rgba(255,255,255,1);
-		float: right;
+		position: relative;
 		width: 100%;
 		margin-bottom: 5em;
 	}
 	.columnTeam div {
 		background: rgba(215,0,0,1);
 	  color: rgba(255,255,255,1);
-	  /* float: right; */
 	  position: relative;
 	  width: 100%;
 	  margin-bottom: 5em;
