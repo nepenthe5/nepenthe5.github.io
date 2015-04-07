@@ -446,6 +446,9 @@ Work page media queries here
 	.workinfo p{
 		font-size: .9em;
 	}
+	.workinfo h2{
+		padding-left: .7em;
+	}
 /*New for this media query--Stack main page elements*/
 	.workinfo { /*Container of subheader and paragraphs of each work*/
 		float: none;
@@ -482,6 +485,9 @@ Work page media queries here
 	.workinfo p{
 		font-size: .9em;
 	}
+	.workinfo h2{
+		padding-left: 1em;
+	}
 	.workinfo {
 		float: none;
 		margin: .5em 3em 5em 3em;
@@ -495,8 +501,8 @@ Work page media queries here
 	.workdescription p{ /*Changed this to center paragraphs within white box*/
 		float: none;
 		width: 90%; /*Changed this!*/
-		padding: 1em;
-		margin: 0 auto 0 auto; /*Changed this!*/
+		padding: 0;
+		margin: 0 auto .5em auto; /*Changed this!*/
 	  /*-webkit-column-count: 3;
 		-webkit-column-gap: 2em;
 		-moz-column-count: 3;
@@ -524,9 +530,12 @@ Work page media queries here
 	.workinfo p{
 		font-size: .9em;
 	}
+	.workinfo h2 {
+		padding-left: 1em;
+	}
 	.workinfo {
 		float: none;
-		margin: .5em 3em 5em 3em;
+		margin: 0; /*Took off all margins around bodycopy element*/
 		padding: 1em;
 		width: auto;
 		max-width: none;
@@ -537,14 +546,14 @@ Work page media queries here
 	.workdescription p{ /*Changed this to center paragraphs within white box*/
 		float: none;
 		width: 90%; 
-		padding: 1em;
-		margin: 0 auto 0 auto;
+		padding: 0;
+		margin: 0 auto .5em auto;
 	}
 	#featuredworks img{
 		float: none;
 		width: 100%;
 		max-width: none;
-		padding: 3em;
+		padding: 0 0 1.5em 0; /*Took off L & R padding*/
 		margin: 0 auto 0 auto;
 	}
 	.workinfo h1 {
