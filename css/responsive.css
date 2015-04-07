@@ -563,7 +563,7 @@ Work page media queries here
 /****************************
 About page media queries here
 ****************************/
-@media only screen and (max-width: 1010px) { /*Change Experts arrangement to 2 top, 2 bottom*/
+@media only screen and (min-width: 915px) and (max-width: 1010px) { /*Change Experts arrangement to 2 top, 2 bottom*/
 	#one {
 		float: left;
 	  width: 40%;
@@ -585,10 +585,160 @@ About page media queries here
 	  margin-right: 5em;
 	}
 }
-@media only screen and (max-width: 915px) { /*Change experts arrangement to stacked on top of each other*/
-
+@media only screen and (min-width: 670px) and (max-width: 915px) { /*Change experts arrangement to stacked on top of each other*/
+ #one {
+		float: none;
+		width: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	}
+	#two {
+		float: none;
+	  width: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#three {
+		float: none;
+	  width: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#four {
+		float: none;
+	  width: 50%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	.columnTeam:hover div { /*Don't display hover but display div*/
+		background:rgba(215,0,0,1);
+		color:rgba(255,255,255,1);
+		float: right;
+		width: 100%;
+		margin-bottom: 5em;
+	}
+	.columnTeam div {
+		background: rgba(215,0,0,1);
+	  color: rgba(255,255,255,1);
+	  /* float: right; */
+	  position: relative;
+	  width: 100%;
+	  margin-bottom: 5em;
+	}
+	#team {
+		width: 80%
+	}
+}
+@media only screen and (min-width: 480px) and (max-width: 670px) {
+	.columnTeam:hover div { /*Don't display hover but display div*/
+		background:rgba(215,0,0,1);
+		color:rgba(255,255,255,1);
+		float: right;
+		width: 100%;
+		margin-bottom: 5em;
+	}
+	.columnTeam div {
+		background: rgba(215,0,0,1);
+	  color: rgba(255,255,255,1);
+	  /* float: right; */
+	  position: relative;
+	  width: 100%;
+	  margin-bottom: 5em;
+	}
+/*Changes here*/
+	#one {
+		float: none;
+		width: 75%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	}
+	#two {
+		float: none;
+	  width: 75%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#three {
+		float: none;
+	  width: 75%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#four {
+		float: none;
+	  width: 75%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#team {
+		width: 80%
+	}
+}
+@media only screen and (max-width: 480px) {
+	.columnTeam:hover div { /*Don't display hover but display div*/
+		background:rgba(215,0,0,1);
+		color:rgba(255,255,255,1);
+		float: right;
+		width: 100%;
+		margin-bottom: 5em;
+	}
+	.columnTeam div {
+		background: rgba(215,0,0,1);
+	  color: rgba(255,255,255,1);
+	  /* float: right; */
+	  position: relative;
+	  width: 100%;
+	  margin-bottom: 5em;
+	}
+/*Changes here*/
+	#one {
+		float: none;
+		width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  margin-bottom: 0;
+	}
+	#two {
+		float: none;
+	  width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#three {
+		float: none;
+	  width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#four {
+		float: none;
+	  width: 100%;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	#team {
+		width: 100%
+	}
 }
 
 /******************************
 Contact page media queries here
 ******************************/
+@media only screen and (min-width: 700px) and (max-width: 1060px) {
+	#contact {
+		width: 80%;
+	}
+}
+@media only screen and (min-width: 435px) and (max-width: 700px) {
+	#contact {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 435px) {
+	#contact {
+		width: 100%;
+		font-size: .9em;
+	}
+}

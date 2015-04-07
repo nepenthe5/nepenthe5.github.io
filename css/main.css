@@ -278,7 +278,7 @@ section#hexagons {
 	padding: 2em;
 	margin-top: 3em;
 	margin-bottom: 7em;
-	max-width: 56%;
+	width: 56%;
 	text-align: left;
 }
 #team h2 {
@@ -325,7 +325,7 @@ section#hexagons {
 	background-color: rgba(255,255,255,.7);
 	padding: 2em;
 	margin: 3em 2em 7em 0;
-	max-width: 56%;
+	width: 56%;
 }
 .wrapper {
 	margin:0 auto 0 auto;
